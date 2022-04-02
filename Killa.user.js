@@ -15,7 +15,7 @@ if (window.top !== window.self) {
             document.getElementsByTagName("killa-art")[0].shadowRoot.children[0].getElementsByTagName("killa-pixel-art-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://preview.redd.it/92qostxagwz51.png?width=763&auto=webp&s=708aff54a83a471403c150cadc6e61ad766b83b7";
+            i.src = "https://i.redd.it/92qostxagwz51.png";
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 775px;height: 780px;";
             console.log(i);
             
